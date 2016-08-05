@@ -3,8 +3,8 @@
 namespace LogoFX.Client.Mvvm.ViewModelFactory
 {
     /// <summary>
-    /// Represents view model factory. Used when the requested view model cannot be resolved from the container
-    /// or created explicitly.
+    /// Represents view model factory. Used when the requested view model cannot be injected
+    /// due to presence of run-time parameters.    
     /// </summary>
     public interface IViewModelFactory
     {
