@@ -17,7 +17,7 @@ namespace LogoFX.Client.Mvvm.ViewModelFactory
         /// <typeparam name="TViewModelFactory">The type of the view model factory.</typeparam>
         public static TBootstrapper UseViewModelFactory<TBootstrapper, TViewModelFactory>(
             this TBootstrapper bootstrapper)
-            where TBootstrapper : class, IExtensible<TBootstrapper>, IHaveContainerRegistrator
+            where TBootstrapper : class, IExtensible<TBootstrapper>, IHaveRegistrator
             where TViewModelFactory : class, IViewModelFactory
         {
             return bootstrapper.Use(new RegisterViewModelFactoryMiddleware<TBootstrapper, TViewModelFactory>());
@@ -29,7 +29,7 @@ namespace LogoFX.Client.Mvvm.ViewModelFactory
     /// </summary>    
     public class RegisterViewModelFactoryMiddleware<TBootstrapper, TViewModelFactory> :
         IMiddleware<TBootstrapper>
-        where TBootstrapper : class, IHaveContainerRegistrator
+        where TBootstrapper : class, IHaveRegistrator
         where TViewModelFactory : class, IViewModelFactory
     {
         /// <summary>
