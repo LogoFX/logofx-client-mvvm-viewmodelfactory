@@ -31,29 +31,29 @@
     <DocumentationFile>..\..\Bin\net45\Release\LogoFX.Client.Mvvm.ViewModelFactory.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="LogoFX.Client.Core, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\LogoFX.Client.Core.Core.1.2.0\lib\net45\LogoFX.Client.Core.dll</HintPath>
+    <Reference Include="LogoFX.Client.Core, Version=1.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\LogoFX.Client.Core.Core.1.2.1-rc1\lib\net45\LogoFX.Client.Core.dll</HintPath>
     </Reference>
-    <Reference Include="LogoFX.Client.Mvvm.ViewModel, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\LogoFX.Client.Mvvm.ViewModel.Core.1.1.0\lib\net45\LogoFX.Client.Mvvm.ViewModel.dll</HintPath>
+    <Reference Include="LogoFX.Client.Mvvm.ViewModel, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\LogoFX.Client.Mvvm.ViewModel.Core.1.1.1-rc1\lib\net45\LogoFX.Client.Mvvm.ViewModel.dll</HintPath>
     </Reference>
-    <Reference Include="LogoFX.Client.Mvvm.ViewModel.Contracts, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\LogoFX.Client.Mvvm.ViewModel.Core.1.1.0\lib\net45\LogoFX.Client.Mvvm.ViewModel.Contracts.dll</HintPath>
+    <Reference Include="LogoFX.Client.Mvvm.ViewModel.Contracts, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\LogoFX.Client.Mvvm.ViewModel.Core.1.1.1-rc1\lib\net45\LogoFX.Client.Mvvm.ViewModel.Contracts.dll</HintPath>
     </Reference>
-    <Reference Include="LogoFX.Core, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\LogoFX.Core.1.1.0\lib\net45\LogoFX.Core.dll</HintPath>
+    <Reference Include="LogoFX.Core, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\LogoFX.Core.1.1.1-rc1\lib\net45\LogoFX.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Solid.Bootstrapping, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Solid.Bootstrapping.1.2.0\lib\net45\Solid.Bootstrapping.dll</HintPath>
+    <Reference Include="Solid.Bootstrapping, Version=1.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Solid.Bootstrapping.1.2.1-rc2\lib\net45\Solid.Bootstrapping.dll</HintPath>
     </Reference>
-    <Reference Include="Solid.Extensibility, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Solid.Extensibility.1.2.0\lib\net45\Solid.Extensibility.dll</HintPath>
+    <Reference Include="Solid.Extensibility, Version=1.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Solid.Extensibility.1.2.1-rc1\lib\net45\Solid.Extensibility.dll</HintPath>
     </Reference>
-    <Reference Include="Solid.Practices.IoC, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Solid.Practices.IoC.1.2.0\lib\net45\Solid.Practices.IoC.dll</HintPath>
+    <Reference Include="Solid.Practices.IoC, Version=1.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Solid.Practices.IoC.1.2.1-rc1\lib\net45\Solid.Practices.IoC.dll</HintPath>
     </Reference>
-    <Reference Include="Solid.Practices.Middleware, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Solid.Practices.Middleware.1.2.0\lib\net45\Solid.Practices.Middleware.dll</HintPath>
+    <Reference Include="Solid.Practices.Middleware, Version=1.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Solid.Practices.Middleware.1.2.1-rc1\lib\net45\Solid.Practices.Middleware.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
