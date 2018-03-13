@@ -1,0 +1,358 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LogoFX.Client.Mvvm.ViewModel.Contracts</name>
+    </assembly>
+    <members>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.ICanBeBusy">
+            <summary>
+            Designates object with busy state.
+            </summary>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.ICanBeBusy.IsBusy">
+            <summary>
+            Gets or sets a value indicating whether the object is busy.
+            </summary>
+            <value>
+              <c>true</c> if the object is busy; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.ICurrent">
+            <summary>
+            Item that can be current.
+            </summary>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.ICurrent.IsCurrent">
+            <summary>
+            If current
+            </summary>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IHaveCurrentItem">
+            <summary>
+            Object that have current item
+            </summary>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IHaveCurrentItem.CurrentItem">
+            <summary>
+            Current item
+            </summary>
+            <remarks>Usually synchronized with focus</remarks>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IHaveCurrentItem`1">
+            <summary>
+            Object that have current item
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IHaveCurrentItem`1.CurrentItem">
+            <summary>
+            Current item
+            </summary>
+            <remarks>Usually synchronized with focus</remarks>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IHaveDisplayName">
+            <summary>
+            Designates object that have Display Name
+            </summary>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IHaveDisplayName.DisplayName">
+            <summary>
+            Gets or sets the display name.
+            </summary>
+            <value>The display name.</value>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IHaveLoadingViewModel`1">
+            <summary>
+            Represents object which is able to display loading view model when the data source is loading.
+            </summary>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IHaveLoadingViewModel`1.LoadingViewModel">
+            <summary>
+            Gets or sets the view model which is displayed on loading the collection.
+            </summary>
+            <value>
+            The loading view model.
+            </value>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IHaveSelectedItem`1">
+            <summary>
+            Object that have one selected item
+            </summary>
+            <typeparam name="T">type of selected item supported</typeparam>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IHaveSelectedItem`1.SelectedItem">
+            <summary>
+            Selected item
+            </summary>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IHaveSelectedItem">
+            <summary>
+            Object that have one selected item
+            </summary>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IHaveSelectedItem.SelectedItem">
+            <summary>
+            Selected item
+            </summary>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IHaveSelectedItems`1">
+            <summary>
+            Object that have multiple selected items
+            </summary>
+            <typeparam name="T">type of selected items</typeparam>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IHaveSelectedItems`1.SelectedItems">
+            <summary>
+            Selected items
+            </summary>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IHaveSelectedItems">
+            <summary>
+            Object that have multiple selected items
+            </summary>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IHaveSelectedItems.SelectedItems">
+            <summary>
+            Selected items
+            </summary>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IHierarchicalViewModel">
+            <summary>
+            Represents view model with child items.
+            </summary>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IHierarchicalViewModel.Children">
+            <summary>
+            Gets the children.
+            </summary>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IHierarchicalViewModel.Items">
+            <summary>
+            Gets the items.(GLUE:compatibility to caliburn micro)
+            </summary>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IModelWrapper">
+            <summary>
+            Object that wraps some other object
+            </summary>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IModelWrapper.Model">
+            <summary>
+            Wrapped object
+            </summary>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IModelWrapper`1">
+            <summary>
+            Object that wraps some other object of T
+            </summary>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IModelWrapper`1.Model">
+            <summary>
+            Wrapped object
+            </summary>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.INotifySelectionChanged">
+            <summary>
+            Object that notifies about selection change
+            </summary>
+        </member>
+        <member name="E:LogoFX.Client.Mvvm.ViewModel.Contracts.INotifySelectionChanged.SelectionChanged">
+            <summary>
+            Occurs when [selection changed].
+            </summary>
+        </member>
+        <member name="E:LogoFX.Client.Mvvm.ViewModel.Contracts.INotifySelectionChanged.SelectionChanging">
+            <summary>
+            Occurs when [selection changing].
+            </summary>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IObjectViewModel">
+            <summary>
+            <see cref="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IViewModel"/> that wraps some object
+            </summary>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IObjectViewModel`1">
+            <summary>
+            <see cref="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IViewModel"/> that wraps some object
+            </summary>
+            <typeparam name="T">type of object</typeparam>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IObjectViewModel`1.ObjectModel">
+            <summary>
+            Gets the object model.
+            </summary>
+            <value>The object model.</value>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IObjectViewModelFactory">
+            <summary>
+            <see cref="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IViewModel"/> factory
+            </summary>
+        </member>
+        <member name="M:LogoFX.Client.Mvvm.ViewModel.Contracts.IObjectViewModelFactory.CreateViewModel(LogoFX.Client.Mvvm.ViewModel.Contracts.IViewModel,System.Object)">
+            <summary>
+            Creates view model
+            </summary>
+            <param name="parent">Parent model</param>
+            <param name="obj">Object for which we making model</param>
+            <returns></returns>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.ISelect">
+            <summary>
+            Represents an object that can select an item.
+            </summary>
+        </member>
+        <member name="M:LogoFX.Client.Mvvm.ViewModel.Contracts.ISelect.Select(System.Object,System.Boolean)">
+            <summary>
+            Selects the specified item.
+            </summary>
+            <param name="item">The item.</param>
+            <param name="notify"></param>
+            <returns>true if succeeded, otherwise false</returns>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.ISelectable">
+            <summary>
+            Represents an object that can be selected.
+            </summary>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.ISelectable.IsSelected">
+            <summary>
+            Selection status
+            </summary>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.ISelector`1">
+            <summary>
+            Selector that supports selection of items.
+            </summary>
+            <typeparam name="T">The type of item.</typeparam>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.ISelector">
+            <summary>
+            Provides various options for selection.
+            </summary>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IUnselect">
+            <summary>
+            Represents an object that can unselect an item or collection of items.
+            </summary>
+        </member>
+        <member name="M:LogoFX.Client.Mvvm.ViewModel.Contracts.IUnselect.Unselect(System.Object,System.Boolean)">
+            <summary>
+            Unselects the specified item.
+            </summary>
+            <param name="item">The specified item.</param>
+            <param name="notify">True, if the selection change should raise notification.</param>
+            <returns>true if succeeded, otherwise false</returns>
+        </member>
+        <member name="M:LogoFX.Client.Mvvm.ViewModel.Contracts.IUnselect.ClearSelection">
+            <summary>
+            Clears the selection.
+            </summary>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IViewModel">
+            <summary>
+            Represents <c>ViewModel</c>
+            </summary>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IViewModel.IsEnabled">
+            <summary>
+            Gets or sets a value indicating whether this instance is enabled.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is enabled; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IViewModel.DisplayName">
+            <summary>
+            Gets the display name.
+            </summary>
+            <value>The display name.</value>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IViewModel.IsExpanded">
+            <summary>
+            Gets or sets a value indicating whether this instance is expanded.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is expanded; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IViewModel.IsCurrent">
+            <summary>
+            Gets or sets a value indicating whether this instance is current.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is current; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IViewModel.LastError">
+            <summary>
+            Gets or sets the last error.
+            </summary>
+            <value>The last error.</value>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IViewModel.IsBusy">
+            <summary>
+            Gets or sets a value indicating whether this instance is busy.
+            </summary>
+            <value><c>true</c> if this instance is busy; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IViewModel.Parent">
+            <summary>
+            Gets or sets the parent.
+            </summary>
+            <value>The parent.</value>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IViewModelsCollection`1">
+            <summary>
+            Represents view models collection.
+            </summary>
+            <typeparam name="T">The type of view model item.</typeparam>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.IViewModelsCollection`1.Item(System.Int32)">
+            <summary>
+            Gets the <see cref="!:T"/> at the specified index.
+            </summary>
+            <value>
+            The <see cref="!:T"/>.
+            </value>
+            <param name="index">The index.</param>
+            <returns></returns>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IObjectViewModelsCollection">
+            <summary>
+            Represents view models collection where each item is an object view model.
+            </summary>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.IObjectViewModelsCollection`1">
+            <summary>
+            Represents view models collection where each item inherits from object view model.
+            </summary>
+            <typeparam name="T">The type of view model item.</typeparam>
+        </member>
+        <member name="T:LogoFX.Client.Mvvm.ViewModel.Contracts.SelectionChangingEventArgs">
+            <summary>
+            SelectionChangingEventArgs
+            </summary>
+        </member>
+        <member name="M:LogoFX.Client.Mvvm.ViewModel.Contracts.SelectionChangingEventArgs.#ctor(System.Object,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:LogoFX.Client.Mvvm.ViewModel.Contracts.SelectionChangingEventArgs"/> class.
+            </summary>
+            <param name="item">The item.</param>
+            <param name="isSelecting">if set to <c>true</c> is selecting.</param>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.SelectionChangingEventArgs.Item">
+            <summary>
+            Gets the item.
+            </summary>
+            <value>The item.</value>
+        </member>
+        <member name="P:LogoFX.Client.Mvvm.ViewModel.Contracts.SelectionChangingEventArgs.IsSelecting">
+            <summary>
+            Gets a value indicating whether this operation is selecting operation.
+            </summary>
+            <value>
+            	<c>true</c> if this operation is selecting; otherwise, <c>false</c>.
+            </value>
+        </member>
+    </members>
+</doc>

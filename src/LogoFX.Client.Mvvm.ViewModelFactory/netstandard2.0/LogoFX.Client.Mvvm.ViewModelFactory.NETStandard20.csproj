@@ -5,6 +5,8 @@
     <AssemblyName>LogoFX.Client.Mvvm.ViewModelFactory</AssemblyName>
     <RootNamespace>LogoFX.Client.Mvvm.ViewModelFactory</RootNamespace>
     <Version>1.2.1</Version>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>LogoFX.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -18,10 +20,24 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="LogoFX.Client.Mvvm.ViewModel.Core" Version="1.1.1-rc2" />
-    <PackageReference Include="Solid.Bootstrapping" Version="1.2.1-rc3" />
-    <PackageReference Include="Solid.Extensibility" Version="1.2.1-rc2" />
-    <PackageReference Include="Solid.Practices.Middleware" Version="1.2.1-rc2" />
+    <Reference Include="LogoFX.Client.Mvvm.ViewModel">
+      <HintPath>..\..\Lib\LogoFX.Client.Mvvm.ViewModel.dll</HintPath>
+    </Reference>
+    <Reference Include="LogoFX.Client.Mvvm.ViewModel.Contracts">
+      <HintPath>..\..\Lib\LogoFX.Client.Mvvm.ViewModel.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Solid.Bootstrapping">
+      <HintPath>..\..\Lib\Solid.Bootstrapping.dll</HintPath>
+    </Reference>
+    <Reference Include="Solid.Extensibility">
+      <HintPath>..\..\Lib\Solid.Extensibility.dll</HintPath>
+    </Reference>
+    <Reference Include="Solid.Practices.IoC">
+      <HintPath>..\..\Lib\Solid.Practices.IoC.dll</HintPath>
+    </Reference>
+    <Reference Include="Solid.Practices.Middleware">
+      <HintPath>..\..\Lib\Solid.Practices.Middleware.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
