@@ -1,10 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>LogoFX.Client.Mvvm.ViewModelFactory</AssemblyName>
     <RootNamespace>LogoFX.Client.Mvvm.ViewModelFactory</RootNamespace>
     <Version>1.2.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -18,10 +22,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="LogoFX.Client.Mvvm.ViewModel.Core" Version="1.1.1-rc2" />
-    <PackageReference Include="Solid.Bootstrapping" Version="1.2.1-rc3" />
-    <PackageReference Include="Solid.Extensibility" Version="1.2.1-rc2" />
-    <PackageReference Include="Solid.Practices.Middleware" Version="1.2.1-rc2" />
+    <PackageReference Include="LogoFX.Client.Mvvm.ViewModel.Core" Version="1.1.1-rc4" />
+    <PackageReference Include="Solid.Bootstrapping" Version="1.2.1-rc4" />
+    <PackageReference Include="Solid.Extensibility" Version="1.2.1-rc3" />
+    <PackageReference Include="Solid.Practices.Middleware" Version="1.2.1-rc3" />
   </ItemGroup>
 
 </Project>
