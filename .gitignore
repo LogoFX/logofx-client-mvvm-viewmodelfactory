@@ -250,3 +250,6 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+# Generated packages and intermediate output
+output
+devops/pack/**/contents/lib
