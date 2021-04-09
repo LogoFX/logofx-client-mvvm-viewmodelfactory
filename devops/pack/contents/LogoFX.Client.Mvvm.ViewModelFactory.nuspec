@@ -19,5 +19,5 @@
       <dependency id="Solid.Practices.Middleware" version="2.3.0-rc1" />
       <dependency id="LogoFX.Client.Mvvm.ViewModel.Contracts" version="2.2.0-rc2" />
     </dependencies>
-  </metadata> 
+  </metadata>
 </package>
