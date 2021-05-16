@@ -14,9 +14,9 @@
     <summary>LogoFX Client Mvvm ViewModel Factory containing definition for view model factory pattern.</summary>
     <releaseNotes>Updated dependent packages</releaseNotes>
     <dependencies>
-      <dependency id="Solid.Bootstrapping" version="2.3.0-rc1" />
-      <dependency id="Solid.Extensibility" version="2.3.0-rc1" />
-      <dependency id="Solid.Practices.Middleware" version="2.3.0-rc1" />
+      <dependency id="Solid.Bootstrapping" version="2.3.0" />
+      <dependency id="Solid.Extensibility" version="2.3.0" />
+      <dependency id="Solid.Practices.Middleware" version="2.3.0" />
       <dependency id="LogoFX.Client.Mvvm.ViewModel.Contracts" version="2.2.0-rc2" />
     </dependencies>
   </metadata>
